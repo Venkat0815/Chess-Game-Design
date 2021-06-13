@@ -1,0 +1,101 @@
+/*********************** TAG SELECTORS **********************/
+
+body{
+  margin:0;
+}
+
+div.container > * {
+  height:90px;
+  width:720px;
+}
+
+/*********************** CLASS SELECTORS **********************/
+
+.container{
+  height:720px;
+  width:720px;
+  position:absolute;
+  left:25%;
+  border: solid black;
+}
+
+.first-col, .second-col, .third-col, .fourth-col, .fifth-col, .sixth-col,
+.seventh-col, .eighth-col{
+  height:90px;
+  width:90px;
+  position:absolute;
+}
+.first-col{
+  left:0;
+}
+.second-col{
+  left:90px;
+}
+.third-col{
+  left:180px;
+}
+.fourth-col{
+  left:270px;
+}
+.fifth-col{
+  left:360px;
+}
+.sixth-col{
+  left:450px;
+}
+.seventh-col{
+  left:540px;
+}
+.eighth-col{
+  left:630px;
+}
+
+.first-row > .first-col, .first-row > .third-col, .first-row > .fifth-col, .first-row > .seventh-col{
+  background-color: black;
+}
+.third-row > .first-col, .third-row > .third-col, .third-row > .fifth-col, .third-row > .seventh-col{
+  background-color: black;
+}
+.fifth-row > .first-col, .fifth-row > .third-col, .fifth-row > .fifth-col, .fifth-row > .seventh-col{
+  background-color: black;
+}
+.seventh-row > .first-col, .seventh-row > .third-col, .seventh-row > .fifth-col, .seventh-row > .seventh-col{
+  background-color: black;
+}
+.first-row > .second-col, .first-row > .fourth-col, .first-row > .sixth-col, .first-row > .eighth-col{
+  background-color: white;
+}
+.third-row > .second-col, .third-row > .fourth-col, .third-row > .sixth-col, .third-row > .eighth-col{
+  background-color: white;
+}
+.fifth-row > .second-col, .fifth-row > .fourth-col, .fifth-row > .sixth-col, .fifth-row > .eighth-col{
+  background-color: white;
+}
+.seventh-row > .second-col, .seventh-row > .fourth-col, .seventh-row > .sixth-col, .seventh-row > .eighth-col{
+  background-color: white;
+}
+
+.second-row > .first-col, .second-row > .third-col, .second-row > .fifth-col, .second-row > .seventh-col{
+  background-color: white;
+}
+.fourth-row > .first-col, .fourth-row > .third-col, .fourth-row > .fifth-col, .fourth-row > .seventh-col{
+  background-color: white;
+}
+.sixth-row > .first-col, .sixth-row > .third-col, .sixth-row > .fifth-col, .sixth-row > .seventh-col{
+  background-color: white;
+}
+.eighth-row > .first-col, .eighth-row > .third-col, .eighth-row > .fifth-col, .eighth-row > .seventh-col{
+  background-color: white;
+}
+.second-row > .second-col, .second-row > .fourth-col, .second-row > .sixth-col, .second-row > .eighth-col{
+  background-color: black;
+}
+.fourth-row > .second-col, .fourth-row > .fourth-col, .fourth-row > .sixth-col, .fourth-row > .eighth-col{
+  background-color: black;
+}
+.sixth-row > .second-col, .sixth-row > .fourth-col, .sixth-row > .sixth-col, .sixth-row > .eighth-col{
+  background-color: black;
+}
+.eighth-row > .second-col, .eighth-row > .fourth-col, .eighth-row > .sixth-col, .eighth-row > .eighth-col{
+  background-color: black;
+}
